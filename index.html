@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prity’ Beauty Parlour | Luxury Bridal Makeup Studio</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Instagram Embed -->
+<script async src="https://www.instagram.com/embed.js"></script>
+
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Poppins',sans-serif;background:#f7f2ed;color:#222;line-height:1.6;}
+  a{text-decoration:none;color:inherit;}
+
+  /* NAVBAR */
+  nav{position:fixed;top:0;width:100%;padding:20px 80px;display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.85);backdrop-filter:blur(10px);z-index:100;}
+  nav h1{font-family:'Playfair Display',serif;font-size:28px;color:#b58648;}
+  nav ul{display:flex;gap:40px;list-style:none;font-weight:500;}
+  nav ul li a{font-weight:600;color:#222;transition:0.3s;}
+  nav ul li a:hover{color:#b58648;}
+
+  /* HERO */
+  .hero{height:100vh;background:url('https://images.unsplash.com/photo-1597075126746-03c3b20fa888?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;display:flex;align-items:center;justify-content:center;padding:0 80px;position:relative;}
+  .hero::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.3);}
+  .hero-content{position:relative;max-width:700px;text-align:center;color:#fff;}
+  .hero h2{font-family:'Playfair Display',serif;font-size:56px;margin-bottom:20px;line-height:1.2;text-shadow:2px 2px 15px rgba(0,0,0,0.5);}
+  .hero p{font-size:20px;margin-bottom:30px;text-shadow:1px 1px 10px rgba(0,0,0,0.4);}
+  .btn{padding:14px 35px;border-radius:30px;font-weight:500;margin:0 10px;display:inline-block;transition:0.3s;text-transform:uppercase;}
+  .btn-primary{background:#b58648;color:#fff;}
+  .btn-primary:hover{transform:translateY(-3px);box-shadow:0 10px 20px rgba(181,134,72,0.4);}
+  .btn-outline{border:2px solid #b58648;color:#fff;background:transparent;}
+  .btn-outline:hover{background:#b58648;color:#fff;transform:translateY(-3px);}
+
+  /* SECTIONS */
+  section{padding:120px 80px;}
+  h3{font-family:'Playfair Display',serif;font-size:48px;margin-bottom:30px;color:#222;}
+  .section-subtitle{color:#b58648;text-transform:uppercase;letter-spacing:2px;margin-bottom:40px;display:block;font-weight:600;}
+
+  /* SERVICES */
+  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;}
+  .card{background:#fff;padding:40px;border-radius:20px;box-shadow:0 15px 35px rgba(0,0,0,0.08);transition:0.3s;text-align:center;font-weight:500;font-size:18px;}
+  .card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(0,0,0,0.15);}
+
+  /* PORTFOLIO */
+  .portfolio{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;}
+  .portfolio img{width:100%;border-radius:20px;transition:0.3s;}
+  .portfolio img:hover{transform:scale(1.05);}
+
+  /* INSTAGRAM GRID */
+  .insta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;}
+  blockquote.instagram-media{margin:0 auto !important;}
+
+  /* TESTIMONIALS */
+  .testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;}
+  .testimonial-card{background:#fff;padding:35px;border-radius:20px;box-shadow:0 15px 35px rgba(0,0,0,0.08);font-style:italic;}
+
+  /* CONTACT */
+  .contact-box{background:#222;color:#fff;padding:60px;border-radius:30px;text-align:center;}
+  .contact-box a{color:#b58648;font-weight:600;}
+
+  footer{background:#111;color:#aaa;padding:50px;text-align:center;font-size:16px;}
+  footer a{color:#b58648;margin:0 10px;}
+  footer a:hover{color:#fff;}
+
+  @media(max-width:768px){nav{padding:15px 20px;}nav ul{gap:20px;} .hero h2{font-size:36px;} .hero p{font-size:16px;} section{padding:80px 20px;}}
+
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h1>Prity’ Beauty Parlour</h1>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#instagram">Instagram</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>Luxury Bridal Beauty,<br>Designed for Your Most Important Day</h2>
+    <p>Timeless elegance. Confident beauty.</p>
+    <a class="btn btn-primary" href="https://wa.me/6207344063">Book on WhatsApp</a>
+    <a class="btn btn-outline" href="https://www.instagram.com/pritys_makeover_salon/">View Instagram</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <span class="section-subtitle">The Queen of Makeovers</span>
+  <h3>About The Studio</h3>
+  <p>Prity’ Beauty Parlour is Katihar’s premier luxury bridal beauty studio, led by Prity Dutta herself. Every bride receives personal attention, premium products, and a calm, hygienic experience designed to make her feel confident and timeless on her special day.</p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <span class="section-subtitle">Signature Treatments</span>
+  <h3>Our Services</h3>
+  <div class="services">
+    <div class="card">Bridal Makeup (HD & Airbrush)</div>
+    <div class="card">Party & Occasion Makeup</div>
+    <div class="card">Hair Styling & Treatments</div>
+    <div class="card">Skin Care & Facials</div>
+    <div class="card">Pre-Bridal Packages</div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <span class="section-subtitle">Our Craft</span>
+  <h3>Brand Look</h3>
+  <div class="portfolio">
+    <img src="https://images.unsplash.com/photo-1597054191509-fd14c3e8c9cd?auto=format&fit=crop&w=800&q=80" alt="Bridal Look 1">
+    <img src="https://images.unsplash.com/photo-1597038531540-38e0e9b64d30?auto=format&fit=crop&w=800&q=80" alt="Bridal Look 2">
+    <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80" alt="Bridal Look 3">
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section id="instagram">
+  <span class="section-subtitle">Authentic Owner Content</span>
+  <h3>From Prity Dutta’s Instagram</h3>
+  <div class="insta-grid">
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DOpuBwOkgAv/" data-instgrm-version="14"></blockquote>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DMrxnxtukOi/?img_index=1" data-instgrm-version="14"></blockquote>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DSmots2kpzJ/?img_index=1" data-instgrm-version="14"></blockquote>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DPB536dkpyI/" data-instgrm-version="14"></blockquote>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DOpuBwOkgAv/" data-instgrm-version="14"></blockquote>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <span class="section-subtitle">Happy Brides</span>
+  <h3>What Brides Say</h3>
+  <div class="testimonials">
+    <div class="testimonial-card">“I felt confident and beautiful. Truly premium experience.” – Anjali Sharma</div>
+    <div class="testimonial-card">“Calm, hygienic and very professional.” – Neha Verma</div>
+    <div class="testimonial-card">“Exactly the bridal look I dreamed of.” – Pooja Singh</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-box">
+    <h3>Contact Us</h3>
+    <p>Durgasthan, 1 No Colony, Kalibari, Tiarpara, Katihar, Bihar 854105</p>
+    <p>📞 <a href="tel:+916207344063">+91 6207344063</a></p>
+    <p>💬 <a href="https://wa.me/6207344063">Chat on WhatsApp</a></p>
+    <p>🌐 <a href="https://www.google.com/maps/place/Prity'+Makeup+Artist+(Beauty+Parlour)/@25.5441933,87.5800279">View on Google Maps</a></p>
+    <p>📸 <a href="https://www.instagram.com/pritys_makeover_salon/">Instagram</a> | <a href="https://www.facebook.com/smily.prity.90/">Facebook</a></p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Prity’ Beauty Parlour | Luxury Bridal Makeup Studio</p>
+  <p>
+    <a href="https://www.instagram.com/pritys_makeover_salon/">Instagram</a> | 
+    <a href="https://www.facebook.com/smily.prity.90/">Facebook</a> | 
+    <a href="https://wa.me/6207344063">WhatsApp</a>
+  </p>
+</footer>
+
+</body>
+</html>
+ 
